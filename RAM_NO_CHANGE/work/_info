@@ -1,0 +1,48 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Administrator/Desktop/RAM_RD
+vram_no_change
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?8j4iEz8[@z^L>T4iX_dc1
+IA5gLDYJ;hj8Q@>UDd^dUX1
+Z1 dC:/Users/Administrator/Desktop/RAM_NO_CHANGE
+w1596629367
+8C:/Users/Administrator/Desktop/RAM_NO_CHANGE/ram_no_change.v
+FC:/Users/Administrator/Desktop/RAM_NO_CHANGE/ram_no_change.v
+L0 1
+Z2 OL;L;10.4e;61
+Z3 !s108 1596629688.000000
+!s107 C:/Users/Administrator/Desktop/RAM_NO_CHANGE/ram_no_change.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RAM_NO_CHANGE/ram_no_change.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vram_no_change_testbench
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 Sf1TbA1C25:oIKFS=ciC@1
+I1HCM]Q_8V5HLVHJ:2o2cN0
+R1
+w1596629677
+8C:/Users/Administrator/Desktop/RAM_NO_CHANGE/ram_nochange_testbench.v
+FC:/Users/Administrator/Desktop/RAM_NO_CHANGE/ram_nochange_testbench.v
+L0 2
+R2
+R3
+!s107 C:/Users/Administrator/Desktop/RAM_NO_CHANGE/ram_nochange_testbench.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RAM_NO_CHANGE/ram_nochange_testbench.v|
+!i113 0
+R4

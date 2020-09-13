@@ -1,0 +1,25 @@
+module ram_readfirst #(parameter addressWidth = 5,
+    dataWidth = 32)
+    (input clk, we, en,
+        input [addressWidth-1:0] address,
+        input [dataWidth-1:0] din,
+        output [addressWidth-1:0] address_delay_w,
+        output [dataWidth-1:0] mem_0,
+        output reg [dataWidth-1:0] dout
+    );
+    // Initialize the RAM
+    reg [dataWidth-1:0] mem [2**addressWidth-1:0];
+    reg [addressWidth-1:0] address_delay;
+
+    always @ (posedge clk) begin
+        if (en) begin
+            if (we)
+                mem[address] <= din;
+            else
+                dout <= mem[address];
+        end
+    end
+
+    assign mem_0 = mem[0];
+
+    endmodule

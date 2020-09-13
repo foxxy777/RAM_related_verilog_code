@@ -1,0 +1,15 @@
+C:/Users/Administrator/Desktop/RAM_RD/ram_readfirst_testbench.v {1 {vlog -work work -vopt -stats=none C:/Users/Administrator/Desktop/RAM_RD/ram_readfirst_testbench.v
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling module ram_readfirst_testbench
+
+Top level modules:
+	ram_readfirst_testbench
+
+} {} {}} C:/Users/Administrator/Desktop/RAM_RD/ram_readfirst.v {1 {vlog -work work -vopt -stats=none C:/Users/Administrator/Desktop/RAM_RD/ram_readfirst.v
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling module ram_readfirst
+
+Top level modules:
+	ram_readfirst
+
+} {} {}}
